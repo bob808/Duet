@@ -1,4 +1,4 @@
-#The Sweet Silence! 3D Printer Controller design files repository.
+# The Sweet Silence! 3D Printer Controller design files repository.
 
 Sweeet Silence is a Duet2 Wifi spinoff, using tmc2228 drivers, mounted on the back of the pcb for better 
 cooling (heatsinks on top pf pcb). Uses the same ATSAM4E8E processor. Output stage has been completely redone,
