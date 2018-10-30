@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6002)
-    (drawings 374)
+    (drawings 375)
     (tracks 10021)
     (zones 0)
     (modules 430)
@@ -18,13 +18,13 @@
   )
 
   (layers
-    (0 Front mixed)
+    (0 Front mixed hide)
     (1 Inner3 signal hide)
     (2 Inner2 power hide)
     (31 Back power hide)
     (35 F.Paste user hide)
-    (36 B.SilkS user hide)
-    (37 F.SilkS user)
+    (36 B.SilkS user)
+    (37 F.SilkS user hide)
     (38 B.Mask user hide)
     (39 F.Mask user hide)
     (40 Dwgs.User user hide)
@@ -16659,6 +16659,9 @@
     )
   )
 
+  (gr_text "“Based on the DuetWifi by Think3dPrint3d and Esher3d, see \nwww.duet3d.com for the original DuetWifi information. This reproduction/\nmodification is not endorsed or supported in any way by Think3dPrint3d \nor Escher3d”" (at 113.2332 96.6724 270) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.1)) (justify mirror))
+  )
   (gr_text "CERN OSH License 1.2 " (at 131.2672 103.0732 90) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
