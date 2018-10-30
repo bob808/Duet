@@ -1,27 +1,28 @@
-The Duet 3D Printer Controller design files repository.
+The Sweet Silence! 3D Printer Controller design files repository.
 
-The latest Duet hardware is the DuetWifi, see https://www.duet3d.com/ for more information
+Sweeet Silence is a Duet2 Wifi spinoff, using tmc2228 drivers, mounted on the back of the pcb for better 
+cooling (heatsinks on top pf pcb). Uses the same ATSAM4E8E processor. Output stage has been completely redone,
+and includes full protection suite from the datasheet (ferrite beads/varistors and caps on BRA/BRB).
+There's 2x MAX31865 chips on board, you can use it directly with PT100/1000 sensors. There's also options
+for 4/3/2 wire setups.
+The driver control should be the same from Maestro.
+There's E2/E3 extra UART connections for external drivers.
+Few pins from 2x25 header are different, and debugging led is gone. Everything else should be the same.
+
+Will update later on with more details. I found all parts at TME/Farnell. 
+Firmware needs to be modified to account for correct pin numbers.
+Ah, and max31865 is to be bitbanged. No hardware SPI in that area.
 
 The recommended firmware is DC42's branch of the RepRapFirmware:
 https://github.com/dc42/RepRapFirmware
 
-Duet 2 Wifi and Duet 2 Ethernet
+Based on :
+Duet 2 Wifi 
 Design by Tony Lock and David Crocker
 More info:
 https://www.duet3d.com/
 LICENSE: see the LICENSE file in the repository
 
-Duet 0.8.5
-Design by Tony Lock, based on the Duet 0.6
-More info here:
-http://blog.think3dprint3d.com/2015/08/new-duet-electronics-version-085.html
-LICENSE: http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt
-
-Duet 0.6:
-Design by Andy Hingston, Tony Lock, Adrian Bowyer with much advice from Chris Palmer.
-More info here:
-http://blog.think3dprint3d.com/2013/12/Duet-Arduino-Due-compatible-3DPrinter-controller.html
-LICENSE: http://www.ohwr.org/attachments/2388/cern_ohl_v_1_2.txt
 
 Developed in KiCAD: http://www.kicad-pcb.org/display/KICAD/KiCad+EDA+Software+Suite
 
