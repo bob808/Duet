@@ -26,3 +26,4 @@ LICENSE: see the LICENSE file in the repository
 
 Developed in KiCAD: http://www.kicad-pcb.org/display/KICAD/KiCad+EDA+Software+Suite
 
+![top with radiators](https://user-images.githubusercontent.com/8607897/47755948-e9cddf80-dca8-11e8-895e-a32944326470.png)
