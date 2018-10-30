@@ -29,5 +29,5 @@ Developed in KiCAD: http://www.kicad-pcb.org/display/KICAD/KiCad+EDA+Software+Su
 
 ![top with radiators](https://user-images.githubusercontent.com/8607897/47755948-e9cddf80-dca8-11e8-895e-a32944326470.png)
 ![top w o radiators](https://user-images.githubusercontent.com/8607897/47755967-fe11dc80-dca8-11e8-80d0-6ff7711c5617.png)
-![bottom](https://user-images.githubusercontent.com/8607897/47755973-05d18100-dca9-11e8-9f17-92ee1d60b82a.png)
+![bottom](https://user-images.githubusercontent.com/8607897/47757279-41bb1500-dcae-11e8-8c03-56cbd6e8ac19.png)
 
