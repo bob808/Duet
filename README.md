@@ -3,6 +3,7 @@
 Sweeet Silence is a Duet2 Wifi spinoff, using tmc2228 drivers, mounted on the back of the pcb for better 
 cooling (heatsinks on top pf pcb). Uses the same ATSAM4E8E processor. Output stage has been completely redone,
 and includes full protection suite from the datasheet (ferrite beads/varistors and caps on BRA/BRB).
+You can skip the varistors, drivers work fine without them.
 There's 2x MAX31865 chips on board, you can use it directly with PT100/1000 sensors. There's also options
 for 4/3/2 wire setups.
 The driver control should be the same from Maestro.
